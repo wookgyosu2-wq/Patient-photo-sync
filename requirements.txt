@@ -1,0 +1,10 @@
+# Runtime dependencies for Windows automation
+keyboard>=0.13.5
+Pillow>=10.0.0
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+pywin32>=306; platform_system == "Windows"
+pytesseract>=0.3.10
+
+# Optional OCR backend. Install with Korean model support if you prefer PaddleOCR:
+# paddleocr>=2.7.0
